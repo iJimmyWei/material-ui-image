@@ -6,7 +6,7 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "build": "babel src -d lib --copy-files",
-    "prepublish": "babel src -d lib --copy-files",
+    "prepare": "babel src -d lib --copy-files",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "publish-docs": "npm run styleguide:build && npm run gh-pages",
